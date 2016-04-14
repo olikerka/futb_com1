@@ -40,7 +40,11 @@ body{
 .vfix{height:100%;width:0;display:inline-block;vertical-align:middle;}
 
 /* /helping adds*/
-
+a {
+    color: #42a4ec;
+    position: relative;
+    display: inline-block;
+}
 .sky{
     -webkit-box-shadow:inset 0 6px 0 0 #f8e27b,inset 0 -2px 0 0 #fbeca7;
     box-shadow:inset 0 6px 0 0 #f8e27b,inset 0 -2px 0 0 #fbeca7;
@@ -49,8 +53,8 @@ body{
 .sky:before{
     content: '';
     position: absolute;
-    top:6px;
-    left: 50%;
+    top:5px;
+    left: 48.8%;
     width: 0;
     height: 0;
     border-style: solid;
@@ -69,31 +73,41 @@ body{
 .header_top{
     margin-bottom: 35px;
     border-bottom: 1px solid #b2def8;
-    padding:13px 0 10px 0;
+    padding:15px 0 10px 0;
+}
+.header_top a{
+    padding-left: 30px;
+}
+.col{
+    float: left;
+}
+.col_3x{
+    width: 33.33%;
+}
+.col-left{
+    text-align: left;
+}
+.col-center{
+    text-align: center; 
+}
+.col-right{
+    text-align: right;
+}
+.col-right a{
+    padding-left: 30px;
 }
 
 .header_main{
     margin-bottom:33px;
-
 }
-
+.header_main .col-left, .header_main .col-right a{
+    margin-bottom: 10px;
+}
 .header_menu{
 
 }
 
-
-a {
-    color: #42a4ec;
-}
-
-.col a {
-    position: relative;
-    display: inline-block;
-    padding-left: 30px;
-    /*margin: 5px 0;*/
-}
 .button {
-    margin: 5px 0;
     padding: 5px 10px 5px 25px;
     /*display: inline-block;*/
     /*position: relative;*/
@@ -128,16 +142,16 @@ a {
 
 
 
-.social-icons a {
+.header_top .col-center a {
     display: inline-block;
     width: 35px;
     height: 32px;
     margin: 0 2px;
     background: url(../images/social_icon.png) no-repeat left top;
 }
-.social-icons a.vk { background-position: 0 0; }
-.social-icons a.ok { background-position: -43px 0;}
-.social-icons a.fb { background-position: -85px 0;}
+.col-center a.vk { background-position: 0 0; }
+.col-center a.ok { background-position: -43px 0;}
+.col-center a.fb { background-position: -85px 0;}
 
 
 .menu a {
