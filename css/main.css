@@ -2,7 +2,12 @@ html *{
     margin: 0;
     padding: 0;
 }
-*{
+header,nav,section,article,aside,footer,time{
+    display:block;
+}
+html *{
+    margin:0;
+    padding:0;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -10,6 +15,72 @@ html *{
 html{
     height:100%;
 }
+body{
+    min-height:100%;
+    min-width:1000px;
+
+    font-size:100%;
+    background:#fff;
+    color:#000;
+    position:relative;
+}
+/* helping adds*/
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: '';
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clear{clear:both;font-size:1px;line-height:1px;height:0;overflow:hidden;}
+.juster{display:inline-block;width:100%;height:0;overflow:hidden;}
+.vfix{height:100%;width:0;display:inline-block;vertical-align:middle;}
+
+/* /helping adds*/
+
+.sky{
+    -webkit-box-shadow:inset 0 6px 0 0 #f8e27b,inset 0 -2px 0 0 #fbeca7;
+    box-shadow:inset 0 6px 0 0 #f8e27b,inset 0 -2px 0 0 #fbeca7;
+}
+
+.sky:before{
+    content: '';
+    position: absolute;
+    top:6px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 11px 0 11px;
+    border-color: #f8e17b transparent transparent transparent;
+}
+
+.resize{
+    width: 960px;
+    margin:0 auto;
+    position: relative;
+}
+
+/* header*/
+
+.header_top{
+    margin-bottom: 35px;
+    border-bottom: 1px solid #b2def8;
+    padding:13px 0 10px 0;
+}
+
+.header_main{
+    margin-bottom:33px;
+
+}
+
+.header_menu{
+
+}
+
 
 a {
     color: #42a4ec;
@@ -59,9 +130,9 @@ a {
 
 .social-icons a {
     display: inline-block;
-    width: 33px;
+    width: 35px;
     height: 32px;
-    margin: 0 3px;
+    margin: 0 2px;
     background: url(../images/social_icon.png) no-repeat left top;
 }
 .social-icons a.vk { background-position: 0 0; }
@@ -81,13 +152,15 @@ a {
     border-bottom: 1px solid #0193E9;
     color: #0193E9;
 }
-.menu_top{margin: 0 130px}
+.menu_top{margin: 0 125px}
 .menu_top a {
-    width: 12.5%;
+    /*width: 12.5%;*/
     font-style: italic;
+    margin: 0 10px;
 }
 .menu_bottom{margin: 0 35px}
 .menu_bottom a {
     text-transform: uppercase;
-    width: 10%;
+    /*width: 10%;*/
+    margin: 0 10px;
 }
