@@ -91,10 +91,13 @@ a {
     text-align: left;
 }
 .col-center{
-    text-align: center; 
+    text-align: center;
 }
 .col-right{
     text-align: right;
+}
+.contacts{
+    text-align: justify;
 }
 /*/colum*/
 
@@ -133,7 +136,7 @@ a {
     height: 18px;
     width: 18px;
     left: 5px;
-    top: -2px;
+    top: -1px;
 }
 .link_coins:before{background-position: -102px 0;}
 .link_pen:before {background-position: -124px 0;}
@@ -175,7 +178,7 @@ a {
     width: 70%;
 }
 .menu_top a {
-    /*width: 12.5%;*/
+    min-width: 9%;
     font-style: italic;
     padding: 0 1%;
 }
