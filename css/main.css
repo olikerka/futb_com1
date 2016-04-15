@@ -107,7 +107,7 @@ a {
     margin-bottom:33px;
 }
 .header_main .col-left, .header_main .col-right a{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .header_menu{
 }
@@ -168,8 +168,12 @@ a {
     text-decoration: none;
     color: black;
 }
-.menu a:hover{
+.menu_bottom a:hover{
     border-bottom: 1px solid #0193E9;
+    color: #0193E9;
+}
+.menu_top a:hover{
+   text-decoration: underline;
     color: #0193E9;
 }
 .menu_top{
