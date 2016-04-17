@@ -264,6 +264,8 @@ a {
 .product_row{
     width: 100%;
     position: relative;
+    font-size: 0;
+    text-align: justify;
 } /*линия из горизонтальной разметки должен сделать Витя */
 
 
@@ -333,9 +335,9 @@ a {
 
 
 .smallproduct{
+    display: inline-block;
     position: relative;
-    width: 8%;
-    float: left;
+    width: 7.5%;
     padding: 5px 0px;
     text-align: center;
     font-size: 14px;
