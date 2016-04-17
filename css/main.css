@@ -192,3 +192,158 @@ a {
     /*width: 10%;*/
     margin: 0 1%;
 }
+
+/*leftarrow,rightarrow*/
+.leftarrow{
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #fae851;
+    
+}
+
+.leftarrow p{
+    color: #019def;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 900;
+    top: 5%;
+    left: 40%;
+}
+
+.rightarrow{
+    display: block;
+    position: absolute;
+    top: 30%;
+    right: 1%;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #fae851;
+    
+}
+
+.rightarrow p{
+    color: #019def;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 900;
+    top: 5%;
+    right: 40%;
+}
+
+.discount{
+    position: absolute;
+    top: 7%;
+    right: 11%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0087e3; 
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #fae851;
+
+} 
+
+.discount p{
+    position: absolute;
+    top: 25%;
+    right: 0px;
+}
+
+.product>.discount{
+    visibility: hidden; 
+}
+/*t-shirt product*/
+
+.product_row{
+    width: 100%;
+    position: relative;
+} /*линия из горизонтальной разметки должен сделать Витя */
+
+
+
+.product{
+    position: relative;
+    width: 25%;
+    float: left;
+    padding: 25px 15px 0 15px;
+    text-align: center;
+    font-size: 14px;
+
+
+}
+
+.imgproduct{
+    display: inline-block;
+    height: 235px;
+    font-size: 0px;
+    margin-bottom: 5px;
+}
+
+.imgproduct img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.title_product{
+    color:#0193e9;
+    font-weight: bold;
+
+}
+
+.comment_product{
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.price_product{
+    color: #676767;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+
+}
+
+.hovercomment{
+    padding: 25px 0;
+    visibility: hidden;
+}
+
+.product:hover{
+    border:3px solid #0193e9;
+
+}
+
+.product:hover>.hovercomment{
+    visibility: visible;
+}
+
+.product:hover>.discount{
+    visibility: visible;
+}
+
+/*t_shirt smallproduct*/
+
+
+.smallproduct{
+    position: relative;
+    width: 8%;
+    float: left;
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 14px;
+
+}
+.imgproduct_small{
+
+    height: 140px;
+    margin-bottom: 10px;
+
+}
