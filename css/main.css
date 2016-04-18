@@ -263,12 +263,17 @@ ul.menu li {
 }
 .menu_top li {
     /*min-width: 5%;*/
-    padding: 0 1%;
+    padding: 0 5px;
 }
 .menu_bottom{
     width: 92%;
+   
     /*margin: 0px 13%;*/
 
+}
+
+.menu_bottom a{
+    border-bottom: 1px solid transparent;
 }
 .menu_bottom li {
     text-transform: uppercase;
@@ -459,7 +464,7 @@ ul.menu li {
     padding: 25px 15px 0 15px;
     text-align: center;
     font-size: 14px;
-
+    border:3px solid transparent;
 
 }
 
@@ -500,7 +505,7 @@ ul.menu li {
 }
 
 .product:hover{
-    border:3px solid #0193e9;
+    border-color: #0193e9;
 }
 
 .product:hover>.hovercomment{
