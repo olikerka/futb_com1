@@ -1,0 +1,92 @@
+[33mcommit d10ec31eafb7cdfa221b881c911289be7331242e[m
+Author: olikerka <olikerka@gmail.com>
+Date:   Mon Apr 18 13:50:08 2016 +0300
+
+    add fonts, slider
+
+[33mcommit f8fe06dcdca1f56c80b86819a12625227d6afbce[m
+Author: olikerka <olikerka@gmail.com>
+Date:   Sun Apr 17 17:50:13 2016 +0300
+
+    merge and change sprite, menu
+
+[33mcommit 9a4880fcfdf6af8f4137577452b969d3db522899[m
+Merge: bc733a4 7ab7b69
+Author: Lena Oliinyk <olikerka@gmail.com>
+Date:   Sun Apr 17 16:35:55 2016 +0300
+
+    Merge pull request #4 from olikerka/branch_alexey
+    
+    merge Branch alexey
+
+[33mcommit 7ab7b69d9d5c714ed300e0df8b404741faf6b860[m
+Author: alex01979 <brd01979@gmail.com>
+Date:   Sun Apr 17 15:37:34 2016 +0300
+
+    product t_shirt ver. 2 чуть по другому сделаны нижние футболки
+
+[33mcommit 2c19b39d723808b82d4175d3f8b42b0899fccc90[m
+Author: alex01979 <brd01979@gmail.com>
+Date:   Sun Apr 17 15:19:29 2016 +0300
+
+    product t_shirt t_shirt small
+
+[33mcommit bc733a485da82e22df9fc44b8d023c471c858d63[m
+Author: olikerka <olikerka@gmail.com>
+Date:   Fri Apr 15 17:56:05 2016 +0300
+
+    col-right margin
+
+[33mcommit 1d6c19a85f8ad69eea9c7bdd23ed4f2dc70ae33f[m
+Author: olikerka <olikerka@gmail.com>
+Date:   Fri Apr 15 16:12:00 2016 +0300
+
+    change header col right
+
+[33mcommit 3bbd1fc97d55e1e6344fdf7ca7317c1557895826[m
+Author: olikerka <olikerka@gmail.com>
+Date:   Fri Apr 15 00:08:31 2016 +0300
+
+    change header
+
+[33mcommit e9506d0e67f0745df72fe832cbd68b61fb8fcaaf[m
+Author: Victor Chernyak <viktor.dab@gmail.com>
+Date:   Thu Apr 14 17:41:29 2016 +0300
+
+    Header_ver1
+
+[33mcommit ccb75c8f72931fa4b2e56128886708366f07384a[m
+Author: olikerka <olikerka@gmail.com>
+Date:   Thu Apr 14 15:46:57 2016 +0300
+
+    change files
+
+[33mcommit 26f23840a38022338e4d3ea5d8537c29631d7a2a[m
+Author: olikerka <olikerka@gmail.com>
+Date:   Thu Apr 14 02:52:39 2016 +0300
+
+    real project
+
+[33mcommit 8d24d6f80e808ff54313183edaf5dc49ef4fe36f[m
+Author: olikerka <olikerka@gmail.com>
+Date:   Wed Apr 13 21:12:19 2016 +0300
+
+    added txt files
+
+[33mcommit b2097e799c19a4f290d62d0147c85b49c3d7f42c[m
+Author: olikerka <olikerka@gmail.com>
+Date:   Wed Apr 13 17:47:10 2016 +0300
+
+    deleted some wrong pic On branch master
+
+[33mcommit 3a823e63921a9808c59b78186ab603d788f9633e[m
+Author: olikerka <olikerka@gmail.com>
+Date:   Wed Apr 13 16:37:42 2016 +0300
+
+    added styles files
+
+[33mcommit 331fda2e2cb694fbd87d7bdd132c14ef2629bde5[m
+Author: olikerka <olikerka@gmail.com>
+Date:   Tue Apr 12 00:49:54 2016 +0300
+
+    Add project
