@@ -244,7 +244,7 @@ a:hover {
 
 
 /*menu*/
-ul.menu li {
+.menu li {
     display: inline-block;
     font-size: 14px;
     text-align: center;
@@ -267,9 +267,11 @@ ul.menu li {
     display: block;
     margin: 0 auto;
     width: 75%;
+    position: relative;
+    text-align: justify;
 }
 .menu_top li {
-    /*min-width: 5%;*/
+    min-width: 9%;
     padding: 0 5px;
 }
 .menu_bottom{
@@ -283,7 +285,7 @@ ul.menu li {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
-    /*width: 10%;*/
+    min-width: 9%;
     padding: 0 7px;
 }
 /*/menu*/
@@ -587,6 +589,7 @@ ul.menu li {
 
 
 .smallproduct{
+    float:left;
     display: inline-block;
     position: relative;
     width: 7.5%;
