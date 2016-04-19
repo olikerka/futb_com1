@@ -534,7 +534,6 @@ ul.menu li {
 .imgproduct_small{
     height: 140px;
     margin-bottom: 10px;
-
 }
 
 /*bottom_contacts */
@@ -553,7 +552,6 @@ ul.menu li {
 .footer_itlinks{
     float: left;
     width: 65%;
-
 }
 
 
@@ -607,7 +605,6 @@ margin: 0 0 12px 35px;
 }
 .footer_service {
     margin: 40px 0;
-    
 }
 .footer_delivery {
     margin-bottom: 30px;
@@ -615,10 +612,8 @@ margin: 0 0 12px 35px;
 .decor_line {
     background: #0085e3;
     padding: 15px 0;
-
 }
 .decor_line {
     color: white;
     text-align: center;
-
 }
