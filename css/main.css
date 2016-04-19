@@ -5,7 +5,7 @@ html *{
 header,nav,section,article,aside,footer,time{
     display:block;
 }
- *{
+* {
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -31,7 +31,6 @@ body{
     line-height: 0;
     content: '';
 }
-
 .clearfix:after {
     clear: both;
 }
@@ -69,6 +68,9 @@ a {
     position: relative;
     display: inline-block;
 }
+a:hover {
+    color: darkgreen;
+}
 .link_pic{
     padding-left: 30px;
     position: relative;
@@ -96,9 +98,8 @@ a {
     border-width: 10px 11px 0 11px;
     border-color: #f8e17b transparent transparent transparent;
 }
-
 .resize{
-    width: 960px;
+    width: 940px;
     margin:0 auto;
     position: relative;
 }
@@ -273,9 +274,6 @@ ul.menu li {
 }
 .menu_bottom{
     width: 92%;
-   
-    /*margin: 0px 13%;*/
-
 }
 
 .menu_bottom a{
@@ -286,7 +284,7 @@ ul.menu li {
     font-size: 14px;
     font-weight: bold;
     /*width: 10%;*/
-    padding: 0 1%;
+    padding: 0 7px;
 }
 /*/menu*/
 
@@ -309,7 +307,7 @@ ul.menu li {
     float: left;
     position: relative;
     background-color: white;
-    margin-right: 5px;
+    margin-right: 1%;
 }
 .promo-text {
     width: 50%;
@@ -349,10 +347,9 @@ ul.menu li {
 }
 .promo-product__row{
     margin-bottom: 3px;
-    padding: 0 15px;
+    padding-left: 10px;
     background-color: white;
     border: 3px solid #0193e9;
-    background-color: white;
     height: 98px;
 }
 .promo-product__row:last-child{
@@ -362,7 +359,7 @@ ul.menu li {
     box-sizing: border-box;
     float: left;
     width: 60%;
-    padding: 10px 0 15px;
+    padding: 10px 0 0 0;
 }
 .product-text a{
     margin-bottom: 15px;
@@ -493,7 +490,7 @@ ul.menu li {
 }
 
 .comment_product{
-    color: #000;
+    color: #32393d;
     font-weight: normal;
     margin-bottom: 15px;
 }
