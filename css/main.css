@@ -5,7 +5,7 @@ html *{
 header,nav,section,article,aside,footer,time{
     display:block;
 }
- *{
+* {
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -31,7 +31,6 @@ body{
     line-height: 0;
     content: '';
 }
-
 .clearfix:after {
     clear: both;
 }
@@ -69,6 +68,9 @@ a {
     position: relative;
     display: inline-block;
 }
+a:hover {
+    color: darkgreen;
+}
 .link_pic{
     padding-left: 30px;
     position: relative;
@@ -96,9 +98,8 @@ a {
     border-width: 10px 11px 0 11px;
     border-color: #f8e17b transparent transparent transparent;
 }
-
 .resize{
-    width: 960px;
+    width: 940px;
     margin:0 auto;
     position: relative;
 }
@@ -114,6 +115,11 @@ a {
 .col{
     float: left;
 }
+
+.col_2x{
+    width: 50%;
+}
+
 .col_3x{
     width: 33.33%;
 }
@@ -186,9 +192,10 @@ a {
 .link_basket_grey:before {background-position: -220px 0;}
 .link_wishes:before {background-position: -146px 0;}
 .link_label:before {background-position: -195px 0;}
+.link_phone:before {background-position: -50px 0;}
 
 
-.header_top .col-center a {
+.header_top .col-center a  {
     display: inline-block;
     width: 35px;
     height: 32px;
@@ -263,19 +270,21 @@ ul.menu li {
 }
 .menu_top li {
     /*min-width: 5%;*/
-    padding: 0 1%;
+    padding: 0 5px;
 }
 .menu_bottom{
     width: 92%;
-    /*margin: 0px 13%;*/
+}
 
+.menu_bottom a{
+    border-bottom: 1px solid transparent;
 }
 .menu_bottom li {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
     /*width: 10%;*/
-    padding: 0 1%;
+    padding: 0 7px;
 }
 /*/menu*/
 
@@ -298,11 +307,10 @@ ul.menu li {
     float: left;
     position: relative;
     background-color: white;
-    margin-right: 5px;
+    margin-right: 1%;
 }
 .promo-text {
     width: 50%;
-    font-family: Arial;
     color: #676767;
     padding: 6% 0 6% 10%;
 }
@@ -338,10 +346,9 @@ ul.menu li {
 }
 .promo-product__row{
     margin-bottom: 3px;
-    padding: 0 15px;
+    padding-left: 10px;
     background-color: white;
     border: 3px solid #0193e9;
-    background-color: white;
     height: 98px;
 }
 .promo-product__row:last-child{
@@ -351,7 +358,7 @@ ul.menu li {
     box-sizing: border-box;
     float: left;
     width: 60%;
-    padding: 10px 0 15px;
+    padding: 10px 0 0 0;
 }
 .product-text a{
     margin-bottom: 15px;
@@ -524,7 +531,7 @@ ul.menu li {
     padding: 25px 15px 0 15px;
     text-align: center;
     font-size: 14px;
-
+    border:3px solid transparent;
 
 }
 
@@ -547,7 +554,7 @@ ul.menu li {
 }
 
 .comment_product{
-    color: #000;
+    color: #32393d;
     font-weight: normal;
     margin-bottom: 15px;
 }
@@ -565,7 +572,7 @@ ul.menu li {
 }
 
 .product:hover{
-    border:3px solid #0193e9;
+    border-color: #0193e9;
 }
 
 .product:hover>.hovercomment{
@@ -591,5 +598,86 @@ ul.menu li {
 .imgproduct_small{
     height: 140px;
     margin-bottom: 10px;
+}
 
+/*bottom_contacts */
+
+.footer_datalinks h2{
+    font-size: 14px;
+    text-align: left;
+    padding: 0 5px 15px 25px
+}
+
+.footer_datalinks a{
+    display: block;
+    padding: 0 5px 15px 25px
+}
+
+.footer_itlinks{
+    float: left;
+    width: 65%;
+}
+
+
+.footer_itlinks a{
+    margin:0 0 20px 35px; 
+}
+
+.footer_social{
+margin: 0 0 12px 35px;
+}
+
+.footer_social a{
+    display: inline-block;
+    width: 33px;
+    height: 32px;
+    margin: 0 2px;
+    background: url(../images/social_icon.png) no-repeat left top;
+}
+
+.footer_social a.footer_vk{background-position: 0 0;}
+.footer_social a.footer_ok{background-position: -43px 0;}
+.footer_social a.footer_fb{background-position: -85px 0;}
+
+.footer_phones{
+    color: #676767;
+    float: left;
+    width: 35%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer_phones p{
+    margin-bottom: 15px;
+}
+
+/**end bottom contacts*/
+
+.bottom {
+    background-image: url("../images/ornament_bot.png");
+    background-position: center bottom;
+    /*background-position-x: 50%;*/
+    /*background-position-y: 100%;*/
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+}
+.bottom_discount {
+    margin-bottom: 60px;
+}
+.bottom_news {
+    padding-bottom: 175px;
+}
+.footer_service {
+    margin: 40px 0;
+}
+.footer_delivery {
+    margin-bottom: 30px;
+}
+.decor_line {
+    background: #0085e3;
+    padding: 15px 0;
+}
+.decor_line {
+    color: white;
+    text-align: center;
 }
