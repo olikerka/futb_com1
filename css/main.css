@@ -346,7 +346,6 @@ ul.menu li {
     padding: 0 15px;
     background-color: white;
     border: 3px solid #0193e9;
-    background-color: white;
     height: 98px;
 }
 .promo-product__row:last-child{
@@ -531,5 +530,32 @@ ul.menu li {
 .imgproduct_small{
     height: 140px;
     margin-bottom: 10px;
-
+}
+.bottom {
+    background-image: url("../images/ornament_bot.png");
+    background-position: center bottom;
+    /*background-position-x: 50%;*/
+    background-position-y: 100%;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+}
+.bottom_discount {
+   margin-bottom: 60px;
+}
+.bottom_news {
+    padding-bottom: 175px;
+}
+.footer_service {
+    margin: 40px 0;
+}
+.footer_delivery {
+    margin-bottom: 30px;
+}
+.decor_line {
+    background: #0085e3;
+    padding: 15px 0;
+}
+.decor_line {
+    color: white;
+    text-align: center;
 }
