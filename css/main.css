@@ -253,6 +253,7 @@ a:hover {
 .menu a {
     text-decoration: none;
     color: #747474;
+    text-align: center;
 }
 
 .menu_bottom a:hover{
@@ -268,11 +269,13 @@ a:hover {
     margin: 0 auto;
     width: 75%;
     position: relative;
-    text-align: justify;
+    text-align: center;
+    font-size: 0;
 }
 .menu_top li {
-    min-width: 9%;
+    /*min-width: 9%;*/
     padding: 0 5px;
+
 }
 .menu_bottom{
     width: 92%;
@@ -285,7 +288,7 @@ a:hover {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
-    min-width: 9%;
+    /*min-width: 9%;*/
     padding: 0 7px;
 }
 /*/menu*/
@@ -504,6 +507,8 @@ a:hover {
     width: 100%;
     position: relative;
     text-align: justify;
+    font-size: 0;
+
 }
 .main__novelty h6{
     text-align: center;
@@ -589,7 +594,7 @@ a:hover {
 
 
 .smallproduct{
-    float:left;
+    /*float:left;*/
     display: inline-block;
     position: relative;
     width: 7.5%;
@@ -604,6 +609,27 @@ a:hover {
 }
 
 /*bottom_contacts */
+
+
+.bottom {
+    background-image: url("../images/ornament_bot.png");
+    background-position: bottom;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+}
+.bottom_discount {
+    margin-bottom: 60px;
+}
+.bottom_news {
+    padding-bottom: 175px;
+}
+.footer_service {
+    margin: 40px 0;
+}
+.footer_delivery {
+    margin-bottom: 30px;
+    font-size: 11px;
+}
 
 .footer_datalinks h2{
     font-size: 14px;
@@ -656,26 +682,6 @@ margin: 0 0 12px 35px;
 
 /**end bottom contacts*/
 
-.bottom {
-    background-image: url("../images/ornament_bot.png");
-    background-position: center bottom;
-    /*background-position-x: 50%;*/
-    /*background-position-y: 100%;*/
-    background-repeat-x: repeat;
-    background-repeat-y: no-repeat;
-}
-.bottom_discount {
-    margin-bottom: 60px;
-}
-.bottom_news {
-    padding-bottom: 175px;
-}
-.footer_service {
-    margin: 40px 0;
-}
-.footer_delivery {
-    margin-bottom: 30px;
-}
 .decor_line {
     background: #0085e3;
     padding: 15px 0;
