@@ -592,4 +592,33 @@ margin: 0 0 12px 35px;
     margin-bottom: 15px;
 }
 
-/**end bottom contacts/
+/**end bottom contacts*/
+
+.bottom {
+    background-image: url("../images/ornament_bot.png");
+    background-position: center bottom;
+    /*background-position-x: 50%;*/
+    /*background-position-y: 100%;*/
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+}
+.bottom_discount {
+    margin-bottom: 60px;
+}
+.bottom_news {
+    padding-bottom: 175px;
+}
+.footer_service {
+    margin: 40px 0;
+}
+.footer_delivery {
+    margin-bottom: 30px;
+}
+.decor_line {
+    background: #0085e3;
+    padding: 15px 0;
+}
+.decor_line {
+    color: white;
+    text-align: center;
+}
