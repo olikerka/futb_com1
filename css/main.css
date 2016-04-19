@@ -535,7 +535,7 @@ ul.menu li {
     background-image: url("../images/ornament_bot.png");
     background-position: center bottom;
     /*background-position-x: 50%;*/
-    background-position-y: 100%;
+    /*background-position-y: 100%;*/
     background-repeat-x: repeat;
     background-repeat-y: no-repeat;
 }
