@@ -114,6 +114,11 @@ a {
 .col{
     float: left;
 }
+
+.col_2x{
+    width: 50%;
+}
+
 .col_3x{
     width: 33.33%;
 }
@@ -186,9 +191,10 @@ a {
 .link_basket_grey:before {background-position: -220px 0;}
 .link_wishes:before {background-position: -146px 0;}
 .link_label:before {background-position: -195px 0;}
+.link_phone:before {background-position: -50px 0;}
 
 
-.header_top .col-center a {
+.header_top .col-center a  {
     display: inline-block;
     width: 35px;
     height: 32px;
@@ -451,8 +457,8 @@ ul.menu li {
 .product_row{
     width: 100%;
     position: relative;
-    font-size: 0;
     text-align: justify;
+    font-size: 0;
 } /*линия из горизонтальной разметки должен сделать Витя */
 
 
@@ -533,3 +539,57 @@ ul.menu li {
     margin-bottom: 10px;
 
 }
+
+/*bottom_contacts */
+
+.footer_datalinks h2{
+    font-size: 14px;
+    text-align: left;
+    padding: 0 5px 15px 25px
+}
+
+.footer_datalinks a{
+    display: block;
+    padding: 0 5px 15px 25px
+}
+
+.footer_itlinks{
+    float: left;
+    width: 65%;
+
+}
+
+
+.footer_itlinks a{
+    margin:0 0 20px 35px; 
+}
+
+.footer_social{
+margin: 0 0 12px 35px;
+}
+
+.footer_social a{
+    display: inline-block;
+    width: 33px;
+    height: 32px;
+    margin: 0 2px;
+    background: url(../images/social_icon.png) no-repeat left top;
+}
+
+.footer_social a.footer_vk{background-position: 0 0;}
+.footer_social a.footer_ok{background-position: -43px 0;}
+.footer_social a.footer_fb{background-position: -85px 0;}
+
+.footer_phones{
+    color: #676767;
+    float: left;
+    width: 35%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer_phones p{
+    margin-bottom: 15px;
+}
+
+/**end bottom contacts/
