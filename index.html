@@ -4,26 +4,42 @@
     <meta charset="UTF-8">
     <title>Модна майка</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/lightslider.css" media="all" />
+    <script src="js/jquery-1.10.0.min.js" type="text/javascript"></script>
+    <script src="js/lightslider.js" type="text/javascript"></script>
+    <script src="js/selectivizr.js" type="text/javascript"></script>
+    <script src="js/scr.js" type="text/javascript"></script>
+    <!--[if lt IE 9]>
+    <script>
+        document.createElement('header');
+        document.createElement('nav');
+        document.createElement('section');
+        document.createElement('article');
+        document.createElement('aside');
+        document.createElement('footer');
+        document.createElement('time');
+    </script>
+
+    <![endif]-->
 </head>
 <body>
 
 <header class="sky">
-    <div class="header_top">
-        <div class="resize clearfix">
-        	<div class="col col_3x col-left">
+    <div class="header_top resize clearfix">
+        <div class="col col_3x col-left">
                 <a href="#" class="button">
                     <span class="link_pen link_pic">Створюй</span>
                 </a>
                 <a href="#" class="button">
                     <span class="link_coins link_pic">Продавай</span>
                 </a>
-            </div>
-            <div class="col col_3x col-center">
+        </div>
+        <div class="col col_3x col-center">
                 <a href="#" class="vk"></a>
                 <a href="#" class="ok"></a>
                 <a href="#" class="fb"></a>
-            </div>
-            <div class="col col_3x col-right contacts">
+        </div>
+        <div class="col col_3x col-right contacts">
                  <a href="#">
                     <span class="link_skype link_pic">uka.ua </span>
                 </a>
@@ -34,11 +50,9 @@
                     <span class="link_mail link_pic"> info@uka.ua </span>
                 </a>
                 <div class="juster"></div>
-            </div>
-        </div>
+         </div>
     </div>
-    <div class="header_main">
-        <div class="resize clearfix">
+    <div class="header_main resize clearfix">
             <div class="col col_3x col-left">
                 <div>
                     <a href="#" class="no-link">Київстар</a>
@@ -65,56 +79,121 @@
                     <span class="link_wishes link_pic">Мої бажання </span>
                 </a>
             </div>
-        </div>
     </div>
-    <div class="header_menu">
-    <div class="resize">
-        <ul class="menu menu_top"><!--
-        --><li><a href="#" class="link_italic">Про нас</a></li><!--
-        --><li><a href="#" class="link_italic">Свій малюнок</a></li><!--
-        --><li><a href="#" class="link_italic">Оплата та доставка</a></li><!--
-        --><li><a href="#" class="link_italic">Блог</a><!--
-        --><li><a href="#" class="link_italic">Відгуки</a></li><!--
-        --><li><a href="#" class="link_italic">Шо це таке?</a></li><!--
-        --><li><a href="#" class="link_italic">Акції</a></li><!--
-        --><li><a href="#" class="link_italic">Контакти</a></li><!--
-         --><span class="juster"></span><!--
-     --></ul>
+    <div class="header_menu resize">
+            <ul class="menu menu_top"><!--
+            --><li><a href="#" class="link_italic">Про нас</a></li><!--
+            --><li><a href="#" class="link_italic">Свій малюнок</a></li><!--
+            --><li><a href="#" class="link_italic">Оплата та доставка</a></li><!--
+            --><li><a href="#" class="link_italic">Блог</a><!--
+            --><li><a href="#" class="link_italic">Відгуки</a></li><!--
+            --><li><a href="#" class="link_italic">Шо це таке?</a></li><!--
+            --><li><a href="#" class="link_italic">Акції</a></li><!--
+            --><li><a href="#" class="link_italic">Контакти</a></li><!--
+         --></ul>
 
-        <ul class="menu menu_bottom"><!--
-        --><li><a href="#">Футболки</a></li><!--
-        --><li><a href="#">Светри</a></li><!--
-        --><li><a href="#">Штани</a></li><!--
-        --><li><a href="#">Кружки</a></li><!--
-        --><li><a href="#">Кепки</a></li><!--
-        --><li><a href="#">Подушки</a></li><!--
-        --><li><a href="#">Cумки</a></li><!--
-        --><li><a href="#">Килимки</a></li><!--
-        --><li><a href="#">Наліпки</a></li><!--
-        --><li><a href="#">Без малюнку</a></li><!--
-        --><span class="juster"></span><!--
-     --></ul>
-    </div>
+            <ul class="menu menu_bottom"><!--
+            --><li><a href="#">Футболки</a></li><!--
+            --><li><a href="#">Светри</a></li><!--
+            --><li><a href="#">Штани</a></li><!--
+            --><li><a href="#">Кружки</a></li><!--
+            --><li><a href="#">Кепки</a></li><!--
+            --><li><a href="#">Подушки</a></li><!--
+            --><li><a href="#">Cумки</a></li><!--
+            --><li><a href="#">Килимки</a></li><!--
+            --><li><a href="#">Наліпки</a></li><!--
+            --><li><a href="#">Без малюнку</a></li><!--
+         --></ul>
     </div>
 </header>  <!--/header-->
 <main class="main">
     <div class="main-promo resize clearfix">
-        <div class="slider">
-            <div class="promo-text">
-                <h2>ВДЯГНИ РОДИНУ</h2>
-                <p>
-                    Все наши сильные переживания, как физические, так и эмоциональные, случаются в теле.
-                </p>
-                <div class="price link_pic link_label">1000 грн</div>
-                <a href="#" class="link_italic">Замовити прямо зараз
-                    <div class="discount"><p>-10%</p></div>
-                </a>
-
-            </div>
-            <div class="leftarrow"><p>&lsaquo;</p></div>
-            <div class="rightarrow"><p>&rsaquo;</p></div>
+        <div class="col col_slider">
+            <ul id="lightSlider">
+                <li>
+                    <div class="slider">
+                        <div class="promo-text">
+                            <h2>ВДЯГНИ РОДИНУ</h2>
+                            <p>
+                                Все наши сильные переживания, как физические, так и эмоциональные, случаются в теле.
+                            </p>
+                            <div class="price link_pic link_label">1000 грн</div>
+                            <a href="#" class="link_italic">Замовити прямо зараз
+                                <div class="discount"><p>-10%</p></div>
+                            </a>
+                        </div>
+                        <div class="leftarrow"><p>&lsaquo;</p></div>
+                        <div class="rightarrow"><p>&rsaquo;</p></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slider">
+                        <div class="promo-text">
+                            <h2>Слайд №2</h2>
+                            <p>
+                                Все наши сильные переживания, как физические, так и эмоциональные, случаются в теле.
+                            </p>
+                            <div class="price link_pic link_label">1000 грн</div>
+                            <a href="#" class="link_italic">Замовити прямо зараз
+                                <div class="discount"><p>-10%</p></div>
+                            </a>
+                        </div>
+                        <div class="leftarrow"><p>&lsaquo;</p></div>
+                        <div class="rightarrow"><p>&rsaquo;</p></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slider">
+                        <div class="promo-text">
+                            <h2>Слайд №3</h2>
+                            <p>
+                                Все наши сильные переживания, как физические, так и эмоциональные, случаются в теле.
+                            </p>
+                            <div class="price link_pic link_label">1000 грн</div>
+                            <a href="#" class="link_italic">Замовити прямо зараз
+                                <div class="discount"><p>-10%</p></div>
+                            </a>
+                        </div>
+                        <div class="leftarrow"><p>&lsaquo;</p></div>
+                        <div class="rightarrow"><p>&rsaquo;</p></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slider">
+                        <div class="promo-text">
+                            <h2>Слайд №4</h2>
+                            <p>
+                                Все наши сильные переживания, как физические, так и эмоциональные, случаются в теле.
+                            </p>
+                            <div class="price link_pic link_label">1000 грн</div>
+                            <a href="#" class="link_italic">Замовити прямо зараз
+                                <div class="discount"><p>-10%</p></div>
+                            </a>
+                        </div>
+                        <div class="leftarrow"><p>&lsaquo;</p></div>
+                        <div class="rightarrow"><p>&rsaquo;</p></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slider">
+                        <div class="promo-text">
+                            <h2>Слайд №5</h2>
+                            <p>
+                                Все наши сильные переживания, как физические, так и эмоциональные, случаются в теле.
+                            </p>
+                            <div class="price link_pic link_label">1000 грн</div>
+                            <a href="#" class="link_italic">Замовити прямо зараз
+                                <div class="discount"><p>-10%</p></div>
+                            </a>
+                        </div>
+                        <div class="leftarrow"><p>&lsaquo;</p></div>
+                        <div class="rightarrow"><p>&rsaquo;</p></div>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <div class="promo-product">
+
+        <div class=" col col_promo-product">
             <div class="promo-product__row clearfix">
                 <div class="product-text">
                     <a href="#">Футболка Sherlock<br>(Шерлок Холмс)</a>
@@ -444,8 +523,13 @@
 </main>
 <div class="bottom">
     <div class="resize">
-        <div class="bottom_discount">
-            <p>ТЕКСТ</p>
+        <div class="bottom_discount clearfix">
+            <div class="col col_2x">
+                <h2>Приведи до нас друга отримай знижку</h2>
+            </div>
+            <div class="col col_2x">
+                <p>50%</p>
+            </div>
         </div>
         <div class="bottom_news">
             <p>ТЕКСТ</p>
@@ -459,25 +543,25 @@
                 <div class="col col_3x">
                     <div class="footer_datalinks">
                         <h2>Товары</h2>
-                        <a href="#">Главная</a>
-                        <a href="#">Наши работы</a>
-                        <a href="#">Оплата/Доставка</a>
+                        <p><a href="#">Главная</a></p>
+                        <p><a href="#">Наши работы</a></p>
+                        <p><a href="#">Оплата/Доставка</a></p>
                     </div>
                 </div>
                 <div class="col col_3x">
                     <div class="footer_datalinks">
                         <h2>Сервис</h2>
-                        <a href="#">Печать оптом</a>
-                        <a href="#">Вопрос/ответ</a>
-                        <a href="#">Отзывы</a>
+                        <p><a href="#">Печать оптом</a></p>
+                        <p><a href="#">Вопрос/ответ</a></p>
+                        <p><a href="#">Отзывы</a></p>
                     </div>
                 </div>
                 <div class="col col_3x">
                     <div class="footer_datalinks">
                         <h2>Контакты</h2>
-                        <a href="#">Блог</a>
-                        <a href="#">Контакты</a>
-                        <a href="#">Размеры</a>
+                        <p><a href="#">Блог</a></p>
+                        <p><a href="#">Контакты</a></p>
+                        <p><a href="#">Размеры</a></p>
                     </div>
                 </div>
             </div>

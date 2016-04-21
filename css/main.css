@@ -181,7 +181,7 @@ a:hover {
     height: 20px;
     width: 20px;
     left: 5px;
-    top: -1px;
+    top: -2px;
 }
 .link_coins:before{background-position: -102px 0;}
 .link_pen:before {background-position: -124px 0;}
@@ -295,29 +295,26 @@ a:hover {
 
 /*main*/
 .main{
-    background-image: url(../images/ornament_top.png);
-    background-position: top;
-    background-repeat: repeat-x;
-    }
+    background: url(../images/ornament_top.png) top repeat-x;
+}
 .main-promo {
     padding-top: 20px;
     margin-bottom: 50px;
-
 }
-.slider {
-    background: url("../images/promo-image.png")no-repeat top right;
-    border: solid 3px #f4cf23;
+.col_slider {
     width: 74%;
-    height: 300px;
-    float: left;
-    position: relative;
-    background-color: white;
     margin-right: 1%;
 }
+.slider {
+    background: url("../images/promo-image.png") no-repeat center right;
+    border: solid 3px #f4cf23;
+    position: relative;
+    background-color: white;
+}
 .promo-text {
-    width: 50%;
+    width: 51%;
     color: #676767;
-    padding: 6% 0 6% 10%;
+    padding: 45px 0 45px 70px;
 }
 .slider h2 {
     text-transform: uppercase;
@@ -325,11 +322,9 @@ a:hover {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 10px;
-    /*padding-bottom: 5%;*/
 }
-.slider p {
+.promo-text p {
     margin-bottom: 30px;
-    /*padding-bottom: 10%;*/
 }
 .price {
     position: relative;
@@ -345,8 +340,7 @@ a:hover {
     top: -70%;
     right: -35%;
 }
-.promo-product{
-    float: left;
+.col_promo-product{
     width: 25%;
 }
 .promo-product__row{
@@ -445,7 +439,7 @@ a:hover {
     left: 1%;
     width: 36px;
     height: 36px;
-    border-radius: 18px;
+    border-radius: 50%;
     background-color: #fae851;
     
 }
@@ -466,7 +460,7 @@ a:hover {
     right: 1%;
     width: 36px;
     height: 36px;
-    border-radius: 18px;
+    border-radius: 50%;
     background-color: #fae851;
 }
 
@@ -520,6 +514,7 @@ a:hover {
 .main__novelty .product_row{
     border-top: 1px solid #b2def8;
     border-bottom: 1px solid #b2def8;
+    padding: 15px 0;
 }
 
 .main__novelty{
@@ -612,19 +607,31 @@ a:hover {
 
 
 .bottom {
-    background-image: url("../images/ornament_bot.png");
-    background-position: bottom;
-    background-repeat-x: repeat;
-    background-repeat-y: no-repeat;
+    background: url("../images/ornament_bot.png") bottom repeat-x;
+    margin-bottom: 40px;
 }
 .bottom_discount {
-    margin-bottom: 60px;
+    padding: 45px 0 15px 0;
+    background: url("../images/promo-image_bottom.png")  right center no-repeat;
+    margin: 0 20px 60px 20px;
+
 }
+.bottom_discount h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #019def;
+}
+.bottom_discount p {
+    font-size: 100px;
+    font-weight: bold;
+    color: #f4cf23;
+}
+
 .bottom_news {
     padding-bottom: 175px;
 }
 .footer_service {
-    margin: 40px 0;
+    margin-bottom: 40px;
 }
 .footer_delivery {
     margin-bottom: 30px;
@@ -637,7 +644,7 @@ a:hover {
     padding: 0 5px 15px 25px
 }
 
-.footer_datalinks a{
+.footer_datalinks p{
     display: block;
     padding: 0 5px 15px 25px
 }
@@ -661,7 +668,7 @@ margin: 0 0 12px 35px;
     width: 33px;
     height: 32px;
     margin: 0 2px;
-    background: url(../images/social_icon.png) no-repeat left top;
+    background: url(../images/social_icon-2.jpg) no-repeat left top;
 }
 
 .footer_social a.footer_vk{background-position: 0 0;}
