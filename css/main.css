@@ -298,6 +298,7 @@ a:hover {
     background-image: url(../images/ornament_top.png);
     background-position: top;
     background-repeat: repeat-x;
+    margin-bottom: 30px;
     }
 .main-promo {
     padding-top: 20px;
@@ -388,6 +389,9 @@ a:hover {
 }
 .main__service .col_3x{
     padding: 5px 20px 0 90px;
+}
+.main__service .col_3x:last-child{
+    padding-right: 0;
 }
 .main__service span, h4{
     font-size: 14px;
@@ -521,10 +525,6 @@ a:hover {
     border-top: 1px solid #b2def8;
     border-bottom: 1px solid #b2def8;
 }
-
-.main__novelty{
-    margin-bottom: 30px;
-}
 .main__product-bottom{
     text-align: center;
     font-style: italic;
@@ -616,12 +616,56 @@ a:hover {
     background-position: bottom;
     background-repeat-x: repeat;
     background-repeat-y: no-repeat;
+    padding-bottom: 200px;
 }
-.bottom_discount {
-    margin-bottom: 60px;
+.bottom_news{
+    padding-right: 55px;
 }
-.bottom_news {
-    padding-bottom: 175px;
+.bottom-header{
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #b2def8;
+}
+.bottom-header h4{
+    width: 80%;
+    float: left;
+    font-size: 18px;
+    font-family: arial;
+    color: #0193e9;
+}
+.bottom-header a{
+    float: right;
+    font-style: italic;
+    text-align: right;
+}
+.bottom-item{
+    margin-bottom: 25px;
+}
+.bottom-item:last-child{
+    margin-bottom: 0;
+}
+.bottom-item p{
+    font-family: arial;
+    font-size: 12px;
+    line-height: 18px;
+}
+.bottom-item h5{
+    line-height: 22px;
+    font-size: 14px;
+}
+.bottom_news .bottom-item h5{
+    color: #0193e9;
+}
+
+.reviews-item1:before{
+    content: url(../images/userpic_man.png);
+    float: left;
+    margin-right: 5px;
+}
+.reviews-item2:before{
+    content: url(../images/userpic_woman.png);
+    float: left;
+    margin-right: 5px;
 }
 .footer_service {
     margin: 40px 0;
