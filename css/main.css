@@ -328,9 +328,12 @@ a:hover {
 .main{
     background: url(../images/ornament_top.png) top repeat-x;
 }
-.main-promo {
+.main-promo-wrapper{
     padding-top: 20px;
+}
+.main-promo {
     margin-bottom: 50px;
+    position: relative;
 }
 .col_slider {
     width: 74%;
@@ -339,7 +342,6 @@ a:hover {
 .slider {
     background: url("../images/promo-image.png") no-repeat center right;
     border: solid 3px #f4cf23;
-    position: relative;
     background-color: white;
     margin-right: 1%;
 }
@@ -372,33 +374,43 @@ a:hover {
     top: -70%;
     right: -35%;
 }
-.col_promo-product{
-    width: 25%;
+.main-promo .col_25pct{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+}
+.row-wrapper{
+    padding-bottom: 3px;
+    height: 33.33%;
+
+}
+.row-wrapper:last-child{
+    padding-bottom: 0;
 }
 .promo-product__row{
-    margin-bottom: 3px;
-    padding-left: 10px;
-    background-color: white;
+    height: 100%;
     border: 3px solid #0193e9;
-    height: 98px;
-}
-.promo-product__row:last-child{
-    margin-bottom: 0;
+    background: url(../images/t_shirt_small_1.jpg) no-repeat top right;
+    background-size: contain;
+    background-color: white;
 }
 .product-text{
     box-sizing: border-box;
     float: left;
     width: 60%;
-    padding: 10px 0 0 0;
+    padding: 10px 0 15px 10px;
 }
 .product-text a{
     margin-bottom: 15px;
 }
 .product-img{
     float: left;
-    max-height: 100%;
-    max-width: 100%;
-}    
+    width: 40%;
+    
+}
+
 .main__social{
     margin-bottom: 45px;
     text-align: center;
@@ -412,8 +424,9 @@ a:hover {
 .main__service{
     margin-bottom: 40px;
 }
-.main__service .col_3x{
+.main__service .col-left, .main__service .col-center, .main__service .col-right{
     padding: 5px 20px 0 90px;
+    text-align: left;
 }
 .main__service span, h4{
     font-size: 14px;
@@ -436,13 +449,13 @@ a:hover {
 .main__service a{
     font-size: 12px;
 }
-.main__service .col_3x:nth-child(3n-2){
+.main__service .col-left{
     background: url(../images/icon_paint_colour.png) no-repeat left top;
 }
-.main__service .col_3x:nth-child(3n-1){
+.main__service .col-center{
     background: url(../images/icon_operator_colour.png) no-repeat left top;
 }
-.main__service .col_3x:nth-child(3n){
+.main__service .col-right{
     background: url(../images/icon_postman_colour.png) no-repeat left top;
 }
 .main__product{
