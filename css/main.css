@@ -106,7 +106,7 @@ a:hover {
 
 /* header*/
 
-.header_top{
+.header-top{
     margin-bottom: 35px;
     border-bottom: 1px solid #b2def8;
     padding: 17px 0 10px 0;
@@ -119,72 +119,44 @@ a:hover {
 .col_2x{
     width: 50%;
 }
-
 .col_3x{
     width: 33.33%;
 }
 
 
 .col_7pct{
-    width: 7.5%;
+    width: 7.65%;
 }
-
 .col_25pct{
     width: 25%
 }
-
-
 .col_33pct{
     width: 33.33%;
 }
-
 .col_35pct{
     width: 35%;
 }
-
 .col_50pct{
     width: 50%;
 }
-
 .col_65pct{
     width: 65%;
 }
-
 .col_75pct{
     width: 75%;
 }
 
-.col-left{
+.item_left{
     text-align: left;
 }
-.col-center{
+.item_center{
     text-align: center;
 }
-.col-right{
+.item_right{
     text-align: right;
 }
 .contacts{
     text-align: justify;
-}
-/*/colum*/
-
-
-
-.header_main{
-    margin-bottom:33px;
-    color: #747474;
-    font-size: 13px;
-}
-.header_main .col-left div{
-    margin-bottom: 15px;
-}
-
-.header_main .col-right a{
-    margin-bottom: 15px;
-}
-.header_menu{
-    width: 100%;
-    display: block;
 }
 
 .button {
@@ -204,7 +176,6 @@ a:hover {
 .button:hover {
     background: #fefba5;
 }
-
 .link_pic:before{
     content: "";
     position: absolute;
@@ -225,8 +196,7 @@ a:hover {
 .link_label:before {background-position: -195px 0;}
 .link_phone:before {background-position: -50px 0;}
 
-
-.header_top .col-center a  {
+.header_top .header-top-item_center a  {
     display: inline-block;
     width: 35px;
     height: 32px;
@@ -237,7 +207,20 @@ a:hover {
 .col-center a.ok { background-position: -43px 0;}
 .col-center a.fb { background-position: -85px 0;}
 
+
+
 /*header_main*/
+.header-main{
+    margin-bottom:33px;
+    color: #747474;
+    font-size: 13px;
+}
+.header-main .item_left div{
+    margin-bottom: 15px;
+}
+.header-main .item_right a{
+    margin-bottom: 15px;
+}
 .logo {
     text-align: center;
     text-decoration: none;
@@ -261,8 +244,6 @@ a:hover {
     color: #848181;
     letter-spacing: 2px;
 }
-
-
 .no-link {
     text-decoration: none;
     border-bottom: dotted 1px;
@@ -270,11 +251,15 @@ a:hover {
 .phone {
     font-size: 16px;
     font-weight: bold;
-    /*letter-spacing: 1px;*/
 }
 
 
-/*menu*/
+
+/*header-menu*/
+.header-menu{
+    width: 100%;
+    display: block;
+}
 .menu li {
     display: inline-block;
     font-size: 14px;
@@ -286,7 +271,6 @@ a:hover {
     color: #747474;
     text-align: center;
 }
-
 .menu_bottom a:hover{
     border-bottom: 1px solid #0193E9;
     color: #0193E9;
@@ -306,12 +290,10 @@ a:hover {
 .menu_top li {
     /*min-width: 9%;*/
     padding: 0 5px;
-
 }
 .menu_bottom{
     width: 92%;
 }
-
 .menu_bottom a{
     border-bottom: 1px solid transparent;
 }
@@ -323,6 +305,8 @@ a:hover {
     padding: 0 7px;
 }
 /*/menu*/
+
+
 
 /*main*/
 .main{
@@ -473,9 +457,7 @@ a:hover {
     height: 36px;
     border-radius: 50%;
     background-color: #fae851;
-    
 }
-
 .leftarrow p{
     color: #019def;
     position: absolute;
@@ -484,7 +466,6 @@ a:hover {
     top: -40%;
     left: 30%;
 }
-
 .rightarrow{
     display: block;
     position: absolute;
@@ -495,7 +476,6 @@ a:hover {
     border-radius: 50%;
     background-color: #fae851;
 }
-
 .rightarrow p{
     color: #019def;
     position: absolute;
@@ -504,7 +484,6 @@ a:hover {
     top: -40%;
     right: 30%;
 }
-
 .discount{
     position: absolute;
     top: 7%;
@@ -516,13 +495,14 @@ a:hover {
     height: 40px;
     border-radius: 50%;
     background-color: #fae851;
-} 
-
+}
 .discount p{
     position: absolute;
     top: 30%;
     right: 4px;
 }
+
+
 
 .product>.discount{
     visibility: hidden; 
@@ -534,8 +514,10 @@ a:hover {
     position: relative;
     text-align: justify;
     font-size: 0;
-
 }
+
+
+/*main__novelty*/
 .main__novelty h6{
     text-align: center;
     font-size: 45px;
@@ -548,7 +530,6 @@ a:hover {
     border-bottom: 1px solid #b2def8;
     padding: 15px 0;
 }
-
 .main__novelty{
     margin-bottom: 30px;
 }
@@ -564,81 +545,67 @@ a:hover {
     text-align: center;
     font-size: 14px;
     border:3px solid transparent;
-
 }
-
 .imgproduct{
     display: inline-block;
     height: 235px;
     font-size: 0;
     margin-bottom: 5px;
 }
-
 .imgproduct img{
     max-width: 100%;
     vertical-align: middle;
 }
-
 .title_product{
     color:#0193e9;
     font-weight: bold;
     text-decoration: none;
-
 }
-
 .comment_product{
     color: #32393d;
     font-weight: normal;
     margin-bottom: 15px;
 }
-
 .price_product{
     color: #676767;
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 15px;
 }
-
 .hovercomment{
     padding: 25px 0;
     visibility: hidden;
 }
-
 .product:hover{
     border-color: #0193e9;
 }
-
 .product:hover>.hovercomment{
     visibility: visible;
 }
-
 .product:hover>.discount{
     visibility: visible;
 }
 
+
+
 /*t_shirt smallproduct*/
-
-
 .smallproduct{
     position: relative;
     padding: 5px 5px;
     text-align: center;
     font-size: 14px;
-
 }
 .imgproduct_small{
     height: 140px;
     margin-bottom: 10px;
 }
 
+
 /*bottom_contacts */
-
-
 .bottom {
     background: url("../images/ornament_bot.png") bottom repeat-x;
     margin-bottom: 40px;
 }
-
 .bottom_news{
     padding-right: 55px;
 }
@@ -694,7 +661,7 @@ a:hover {
     padding: 45px 0 15px 0;
     background: url("../images/promo-image_bottom.png")  right center no-repeat;
     margin: 0 20px 60px 20px;
-
+    position: relative;
 }
 .bottom_discount h2 {
     font-size: 40px;
@@ -706,10 +673,11 @@ a:hover {
     font-weight: bold;
     color: #f4cf23;
 }
-
 .bottom_news {
     padding-bottom: 175px;
 }
+
+/*footer*/
 .footer_service {
     margin-bottom: 40px;
 }
@@ -717,31 +685,23 @@ a:hover {
     margin-bottom: 30px;
     font-size: 11px;
 }
-
 .footer_datalinks h2{
     font-size: 14px;
     text-align: left;
     padding: 0 5px 15px 25px
 }
-
 .footer_datalinks p{
     display: block;
     padding: 0 5px 15px 25px
 }
-
 .footer_itlinks{
-
 }
-
-
 .footer_itlinks a{
     margin:0 0 20px 35px; 
 }
-
 .footer_social{
 margin: 0 0 12px 35px;
 }
-
 .footer_social a{
     display: inline-block;
     width: 33px;
@@ -749,7 +709,6 @@ margin: 0 0 12px 35px;
     margin: 0 2px;
     background: url(../images/social_icon-2.jpg) no-repeat left top;
 }
-
 .footer_social a.footer_vk{background-position: 0 0;}
 .footer_social a.footer_ok{background-position: -43px 0;}
 .footer_social a.footer_fb{background-position: -85px 0;}
@@ -760,13 +719,11 @@ margin: 0 0 12px 35px;
     font-weight: bold;
     padding-left: 5px;
 }
-
 .footer_phones p{
     margin-bottom: 15px;
 }
 
-/**end bottom contacts*/
-
+/*decor*/
 .decor_line {
     background: #0085e3;
     padding: 15px 0;
