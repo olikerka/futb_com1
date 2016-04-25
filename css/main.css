@@ -316,10 +316,6 @@ a:hover {
     padding-top: 20px;
     margin-bottom: 50px;
 }
-.col_slider {
-    width: 74%;
-    margin-right: 1%;
-}
 .slider {
     background: url("../images/promo-image.png") no-repeat center right;
     border: solid 3px #f4cf23;
@@ -382,7 +378,7 @@ a:hover {
     float: left;
     max-height: 100%;
     max-width: 100%;
-}    
+}
 .main__social{
     margin-bottom: 45px;
     text-align: center;
@@ -396,8 +392,9 @@ a:hover {
 .main__service{
     margin-bottom: 40px;
 }
-.main__service .col_3x{
+.main__service .col-left, .main__service .col-center, .main__service .col-right{
     padding: 5px 20px 0 90px;
+    text-align: left;
 }
 .main__service span, h4{
     font-size: 14px;
@@ -407,7 +404,7 @@ a:hover {
     display: block;
     font-family: Georgia;
     font-style: italic;
-    
+
 }
 .main__service h4{
     font-weight: bold;
@@ -420,13 +417,13 @@ a:hover {
 .main__service a{
     font-size: 12px;
 }
-.main__service .col_3x:nth-child(3n-2){
+.main__service .col-left{
     background: url(../images/icon_paint_colour.png) no-repeat left top;
 }
-.main__service .col_3x:nth-child(3n-1){
+.main__service .col-center{
     background: url(../images/icon_operator_colour.png) no-repeat left top;
 }
-.main__service .col_3x:nth-child(3n){
+.main__service .col-right{
     background: url(../images/icon_postman_colour.png) no-repeat left top;
 }
 .main__product{
