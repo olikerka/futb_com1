@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Модна майка</title>
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/lightslider.css" media="all" />
+    <link rel="stylesheet" href="css/main.css">
     <script src="js/jquery-1.10.0.min.js" type="text/javascript"></script>
     <script src="js/lightslider.js" type="text/javascript"></script>
     <script src="js/selectivizr.js" type="text/javascript"></script>
@@ -54,10 +54,11 @@
             </div>
         </div>    
     </div>
-    <div class="header-main resize clearfix">
+    <div class="resize">
+        <div class="header-main clearfix">
             <div class="col col_33pct item_left">
                 <div>
-                    <a href="#" class="no-link">Київстар</a>
+                    <a href="#" class="dashed-link">Київстар</a>
                     <span class="phone">(097) 794 01 20</span>
                 </div>
                 <div>
@@ -81,8 +82,9 @@
                     <span class="link_wishes link_pic">Мої бажання </span>
                 </a>
             </div>
-    </div>
-    <div class="header-menu resize">
+        </div>
+        <div class="header-menu">
+
             <ul class="menu menu_top"><!--
             --><li><a href="#" class="link_italic">Про нас</a></li><!--
             --><li><a href="#" class="link_italic">Свій малюнок</a></li><!--
@@ -106,6 +108,8 @@
             --><li><a href="#">Наліпки</a></li><!--
             --><li><a href="#">Без малюнку</a></li><!--
          --></ul>
+
+        </div>
     </div>
 </header>  <!--/header-->
 <main class="main">
@@ -125,8 +129,8 @@
                                 <div class="discount"><p>-10%</p></div>
                             </a>
                         </div>
-                        <div class="leftarrow"><p>&lsaquo;</p></div>
-                        <div class="rightarrow"><p>&rsaquo;</p></div>
+                        <!--<div class="leftarrow"><p>&lsaquo;</p></div>-->
+                        <!--<div class="rightarrow"><p>&rsaquo;</p></div>-->
                     </div>
                 </li>
                 <li>
@@ -141,8 +145,8 @@
                                 <div class="discount"><p>-10%</p></div>
                             </a>
                         </div>
-                        <div class="leftarrow"><p>&lsaquo;</p></div>
-                        <div class="rightarrow"><p>&rsaquo;</p></div>
+                        <!--<div class="leftarrow"><p>&lsaquo;</p></div>-->
+                        <!--<div class="rightarrow"><p>&rsaquo;</p></div>-->
                     </div>
                 </li>
                 <li>
@@ -157,8 +161,8 @@
                                 <div class="discount"><p>-10%</p></div>
                             </a>
                         </div>
-                        <div class="leftarrow"><p>&lsaquo;</p></div>
-                        <div class="rightarrow"><p>&rsaquo;</p></div>
+                        <!--<div class="leftarrow"><p>&lsaquo;</p></div>-->
+                        <!--<div class="rightarrow"><p>&rsaquo;</p></div>-->
                     </div>
                 </li>
                 <li>
@@ -173,8 +177,8 @@
                                 <div class="discount"><p>-10%</p></div>
                             </a>
                         </div>
-                        <div class="leftarrow"><p>&lsaquo;</p></div>
-                        <div class="rightarrow"><p>&rsaquo;</p></div>
+                        <!--<div class="leftarrow"><p>&lsaquo;</p></div>-->
+                        <!--<div class="rightarrow"><p>&rsaquo;</p></div>-->
                     </div>
                 </li>
                 <li>
@@ -189,8 +193,8 @@
                                 <div class="discount"><p>-10%</p></div>
                             </a>
                         </div>
-                        <div class="leftarrow"><p>&lsaquo;</p></div>
-                        <div class="rightarrow"><p>&rsaquo;</p></div>
+                        <!--<div class="leftarrow"><p>&lsaquo;</p></div>-->
+                        <!--<div class="rightarrow"><p>&rsaquo;</p></div>-->
                     </div>
                 </li>
             </ul>
@@ -226,7 +230,7 @@
     </div>
     <div class="main__service resize clearfix">
             <div class="col col_33pct">
-                <div class="col-left">
+                <div class="support-item icon_paint">
                     <span>Індивідуальний малюнок</span>
                     <h4>Створи свій імідж</h4>
                     <p class="text">Все наши сильные переживания, как физические, так и эмоциональные. случаются в теле.</p>
@@ -234,7 +238,7 @@
                 </div>
             </div>
             <div class="col col_33pct">
-                <div class="col-center">
+                <div class="support-item icon_operator">
                     <span>Якісний сервіс</span>
                     <h4>Особистий консультант</h4>
                     <p class="text">Все наши сильные переживания, как физические, так и эмоциональные. случаются в теле.</p>
@@ -242,7 +246,7 @@
                 </div>
             </div>
             <div class="col col_33pct">
-                <div class="col-right">
+                <div class="support-item icon_delivery">
                     <span>Безкоштовна доставка</span>
                     <h4>Доставка до дверей</h4>
                     <p class="text">Все наши сильные переживания, как физические, так и эмоциональные. случаются в теле.</p>
@@ -395,7 +399,7 @@
         </div> <!--/product_row-->
         
         <div class="main__product-bottom">
-                <a class="no-link" href="#">Більше товарів</a>
+                <a class="dashed-link" href="#">Більше товарів</a>
         </div>
     </div><!--/resize-->
     </div>
@@ -560,8 +564,7 @@
             </div>    
         </div> <!--/product-row-->
    </div>
-</main>
-<div class="bottom">
+
     <div class="resize">
         <div class="bottom_discount clearfix">
             <div class="col col_50pct">
@@ -606,7 +609,8 @@
             </div>
         </div>
     </div>
-</div>
+</main>
+
 <footer>
     <div class="resize">
         <div class="footer_service clearfix">
@@ -670,13 +674,13 @@
                 </div>
             </div>
         </div>
-        <div class="footer_delivery">
+        <div class="info">
             <p>Доставка по украине: Киев Запорожье Белая Церковь Борисполь Винница Днепропетровск Донецк Житомир Ивано-Франковск Кировоград Кременчуг Кривой Рог Луганск Луцк Львов
                 Мариуполь Мелитополь Николаев Одесса Полтава Ровно Севастополь Симферополь Суммы Тернополь Ужгород Харьков Херсон Хмельницкий Черкассы Чернигов Черновцы Ялта
             </p>
         </div>
     </div>
-    <div class="decor_line">
+    <div class="copyright">
         © 2013 Moдна Майка Всi права захищенi.
     </div>
 </footer>

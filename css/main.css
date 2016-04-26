@@ -99,7 +99,7 @@ a:hover {
     border-color: #f8e17b transparent transparent transparent;
 }
 .resize{
-    width: 940px;
+    width: 960px;
     margin:0 auto;
     position: relative;
 }
@@ -114,6 +114,7 @@ a:hover {
 /*colum*/
 .col{
     float: left;
+    padding: 0 10px;
 }
 
 .col_2x{
@@ -160,7 +161,7 @@ a:hover {
 }
 
 .button {
-    padding: 5px 10px 5px 0;
+    padding: 5px;
     /*display: inline-block;*/
     /*position: relative;*/
     color: #312a2a;
@@ -168,7 +169,6 @@ a:hover {
     background: #fae851;
     border-radius: 10px;
     text-decoration: none;
-    /*font-family: Arial sans-serif;*/
     font-size: 14px;
     line-height: 1em;
     font-weight: bold;
@@ -196,16 +196,16 @@ a:hover {
 .link_label:before {background-position: -195px 0;}
 .link_phone:before {background-position: -50px 0;}
 
-.header_top .header-top-item_center a  {
+.header-top .item_center a  {
     display: inline-block;
     width: 35px;
     height: 32px;
     margin: 0 2px;
     background: url(../images/social_icon.png) no-repeat left top;
 }
-.col-center a.vk { background-position: 0 0; }
-.col-center a.ok { background-position: -43px 0;}
-.col-center a.fb { background-position: -85px 0;}
+.item_center a.vk { background-position: 0 0; }
+.item_center a.ok { background-position: -43px 0;}
+.item_center a.fb { background-position: -85px 0;}
 
 
 
@@ -244,7 +244,7 @@ a:hover {
     color: #848181;
     letter-spacing: 2px;
 }
-.no-link {
+.dashed-link {
     text-decoration: none;
     border-bottom: dotted 1px;
 }
@@ -256,10 +256,6 @@ a:hover {
 
 
 /*header-menu*/
-.header-menu{
-    width: 100%;
-    display: block;
-}
 .menu li {
     display: inline-block;
     font-size: 14px;
@@ -270,10 +266,6 @@ a:hover {
     text-decoration: none;
     color: #747474;
     text-align: center;
-}
-.menu_bottom a:hover{
-    border-bottom: 1px solid #0193E9;
-    color: #0193E9;
 }
 .menu_top a:hover{
     text-decoration: underline;
@@ -295,7 +287,11 @@ a:hover {
     width: 92%;
 }
 .menu_bottom a{
-    border-bottom: 1px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+.menu_bottom a:hover{
+    border-bottom: 2px solid #0193E9;
+    color: #0193E9;
 }
 .menu_bottom li {
     text-transform: uppercase;
@@ -310,8 +306,15 @@ a:hover {
 
 /*main*/
 .main{
-    background: url(../images/ornament_top.png) top repeat-x;
+    background-image:
+            url(../images/ornament_top.png),
+            url("../images/ornament_bot.png");
+    background-repeat: repeat-x, repeat-x ;
+    background-position: top, bottom;
+    margin-bottom: 40px;
+    padding-bottom: 170px;
 }
+
 .main-promo {
     padding-top: 20px;
     margin-bottom: 50px;
@@ -321,7 +324,7 @@ a:hover {
     border: solid 3px #f4cf23;
     position: relative;
     background-color: white;
-    margin-right: 1%;
+    /*margin-right: 1%;*/
 }
 .promo-text {
     width: 51%;
@@ -392,17 +395,33 @@ a:hover {
 .main__service{
     margin-bottom: 40px;
 }
-.main__service .col-left, .main__service .col-center, .main__service .col-right{
-    padding: 5px 20px 0 90px;
+.support-item {
+    padding: 5px 0 0 80px;
     text-align: left;
+    position: relative;
 }
+.support-item:before {
+    content: "";
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 0;
+    background: url(../images/sprite_supported_icon.png) no-repeat left top;
+    background-color: #019def;
+    border-radius: 50%;
+}
+.icon_paint:before { background-position: -58px 0; }
+.icon_operator:before { background-position: 0 0; }
+.icon_delivery:before { background-position: -133px 0; }
+
+
 .main__service span, h4{
     font-size: 14px;
     margin-bottom: 15px;
 }
 .main__service span{
     display: block;
-    font-family: Georgia;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
 
 }
@@ -417,15 +436,7 @@ a:hover {
 .main__service a{
     font-size: 12px;
 }
-.main__service .col-left{
-    background: url(../images/icon_paint_colour.png) no-repeat left top;
-}
-.main__service .col-center{
-    background: url(../images/icon_operator_colour.png) no-repeat left top;
-}
-.main__service .col-right{
-    background: url(../images/icon_postman_colour.png) no-repeat left top;
-}
+
 .main__product{
     margin-bottom: 60px;
 }
@@ -440,7 +451,7 @@ a:hover {
 }
 .main__product-header a{
     display: block;
-    font-family: Georgia;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     text-align: center;
 }
@@ -533,7 +544,7 @@ a:hover {
 .main__product-bottom{
     text-align: center;
     font-style: italic;
-    font-family: georgia;
+    font-family: georgia, Times, 'Times New Roman', serif;
     font-size: 22px;
 }
 .product{
@@ -599,8 +610,8 @@ a:hover {
 
 
 /*bottom_contacts */
-.bottom {
-    background: url("../images/ornament_bot.png") bottom repeat-x;
+.main {
+    /*background: url("../images/ornament_bot.png") bottom repeat-x;*/
     margin-bottom: 40px;
 }
 .bottom_news{
@@ -615,7 +626,7 @@ a:hover {
     width: 80%;
     float: left;
     font-size: 18px;
-    font-family: arial;
+    font-family: Arial, sans-serif;
     color: #0193e9;
 }
 .bottom-header a{
@@ -630,7 +641,7 @@ a:hover {
     margin-bottom: 0;
 }
 .bottom-item p{
-    font-family: arial;
+    font-family: Arial, sans-serif;
     font-size: 12px;
     line-height: 18px;
 }
@@ -671,17 +682,14 @@ a:hover {
     color: #f4cf23;
 }
 .bottom_news {
-    padding-bottom: 175px;
+    padding-bottom: 35px;
 }
 
 /*footer*/
 .footer_service {
     margin-bottom: 40px;
 }
-.footer_delivery {
-    margin-bottom: 30px;
-    font-size: 11px;
-}
+
 .footer_datalinks h2{
     font-size: 14px;
     text-align: left;
@@ -720,12 +728,52 @@ margin: 0 0 12px 35px;
     margin-bottom: 15px;
 }
 
-/*decor*/
-.decor_line {
+footer .info {
+    margin-bottom: 30px;
+    font-size: 11px;
+}
+
+.copyright{
     background: #0085e3;
     padding: 15px 0;
-}
-.decor_line {
     color: white;
     text-align: center;
+}
+
+
+
+/* slider actions */
+.lSAction > a {
+    width: 37px;
+    display: block;
+    top: 50%;
+    height: 37px;
+    background-image: url('../images/controls.png');
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    margin-top: -16px;
+    opacity: 0.9;
+    -webkit-transition: opacity 0.35s linear 0s;
+    transition: opacity 0.35s linear 0s;
+}
+.lSAction > a:hover {
+    opacity: 1;
+}
+.lSAction > .lSPrev {
+    background-position: 0 0;
+    left: 10px;
+}
+.lSAction > .lSNext {
+    background-position: -41px 0;
+    right: 12px;
+}
+.lSAction > a.disabled {
+    pointer-events: none;
+}
+.cS-hidden {
+    height: 1px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    overflow: hidden;
 }
