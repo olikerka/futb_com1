@@ -1,0 +1,98 @@
+header
+	header-top
+		col_33pcs col_left
+		col_33pcs col_center
+		col_33pcs col_right
+	header-main
+		col_33pcs col_left
+		col_33pcs col_center
+		col_33pcs col_right
+	headder-menu
+		menu-top
+		menu-bottom
+content
+	content-slider
+		col_75pcs slider
+			slider-info
+				slider-title
+				slider-text
+				price
+				link
+			slider-img
+		col_25pcs right-col
+			right-col_row
+				product-info
+					link
+					price
+				product-img
+			right-col_row
+			right-col_row
+	content-like
+		like-title
+	content-support
+		col_33pcs col_left
+			support-title_main
+			support-title
+			support-text
+			link
+		col_33pcs col_center
+		col_33pcs col_right
+	content-product
+		product-row
+			col_25pcs
+				product-img
+				product-title link
+				price
+				btn
+			col_25pcs
+			col_25pcs
+			col_25pcs
+		product-row
+			col_25pcs
+			col_25pcs
+			col_25pcs
+			col_25pcs
+	content-product-small
+		product-row
+			col_7pcs
+				product-img
+				product-price
+				btn
+			col_7pcs
+			col_7pcs
+			col_7pcs
+			col_7pcs
+			col_7pcs
+			col_7pcs
+			col_7pcs
+	content-bottom
+		bottom-promotion
+			promotion-text
+				promotion-title
+				promotion-sale
+			promotion-img
+		bottom-info
+			info-news
+				news-title
+				news-block	
+					news-item
+					news-item
+			info-comments
+				comments-title
+				comments-block	
+					comments-item
+						avatar
+						comments-text
+					comments-item
+		
+footer
+	footer-main
+		col_50pct
+			col_33pct
+			col_33pct
+			col_33pct
+		col_50pct
+			col_65pcs
+			col_35pcs
+	footer-info
+	footer-copyright	
