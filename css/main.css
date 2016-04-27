@@ -526,7 +526,7 @@ a:hover {
 /*t-shirt product*/
 
 .product_row{
-    width: 100%;
+    /*width: 100%;*/
     position: relative;
     text-align: justify;
     font-size: 0;
@@ -551,15 +551,8 @@ a:hover {
     border-bottom: 1px solid #b2def8;
     padding: 15px 0;
 }
-.content-product-smal{
+.content-product-small{
     margin-bottom: 30px;
-}
-
-.main__product-bottom{
-    text-align: center;
-    font-style: italic;
-    font-family: georgia, Times, 'Times New Roman', serif;
-    font-size: 22px;
 }
 
 .product{
@@ -612,16 +605,37 @@ a:hover {
 
 
 /*t_shirt smallproduct*/
+
 .smallproduct{
+    /*float:left;*/
+    display: inline-block;
     position: relative;
+    width: 7.65%;
     padding: 5px 5px;
     text-align: center;
     font-size: 14px;
+
 }
 .imgproduct_small{
     height: 140px;
     margin-bottom: 10px;
 }
+
+.scroll{
+    text-align: justify;
+    font-size: 0;
+    margin-left: -18%;
+}
+.hidden {
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+
 
 
 /*bottom_contacts */
