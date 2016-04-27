@@ -546,7 +546,8 @@ a:hover {
     margin-bottom: 20px;
     color: #0193e9;
 }
-.content-product-small .product_row{
+/*.content-product-small .product_row, */
+.content-product-small .hidden{
     border-top: 1px solid #b2def8;
     border-bottom: 1px solid #b2def8;
     padding: 15px 0;
@@ -610,7 +611,7 @@ a:hover {
     /*float:left;*/
     display: inline-block;
     position: relative;
-    width: 7.65%;
+    width: 140px;
     padding: 5px 5px;
     text-align: center;
     font-size: 14px;
@@ -622,9 +623,12 @@ a:hover {
 }
 
 .scroll{
-    text-align: justify;
+    text-align: center;
     font-size: 0;
-    margin-left: -18%;
+    left: -2500px;
+    width: 5000px;
+    margin-left: 2500px;
+
 }
 .hidden {
     white-space: nowrap;
